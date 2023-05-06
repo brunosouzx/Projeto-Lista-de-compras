@@ -1,0 +1,107 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+
+  .corpo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #lista-compras {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #lista-compras th, #lista-compras td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #lista-compras th {
+    background-color: #f2f2f2;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  #formulario {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #formulario label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #formulario input[type="text"],
+  #formulario input[type="number"],
+  #formulario button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  #formulario input[type="text"],
+  #formulario input[type="number"] {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #formulario button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #formulario button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .botao-editar, .botao-excluir {
+    padding: 6px 12px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  .botao-editar {
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  .botao-excluir {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .botao-editar:hover {
+    background-color: #0b7dda;
+  }
+  
+  .botao-excluir:hover {
+    background-color: #da190b;
+  }
+  nav{
+    padding: 10px;
+    padding-left: 40px;
+    background-color: lightslategray;
+    display: flex;
+  }
+  
+ 
+  
+
+  
